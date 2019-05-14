@@ -1,0 +1,98 @@
+* {margin:0;padding:0}
+.menu{
+    /*    postion:fixed; ??????   */
+    background-color: #262626;
+    width:100%;
+    height:60px;
+}
+.menu ul{
+    list-style: none;
+    margin-right: 30px;
+    display:flex;
+    float:right;
+}
+.menu ul li{
+    padding:15px;
+}
+.menu ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-family: arial;
+    position: relative;
+    line-height:30px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color:#539EF4;
+    font-weight:600;
+    font-family:Helvetica;
+}
+
+.menu ul li a span:first-of-type:before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:8px;
+    height:8px;
+    background:transparent;
+    border-top:2px solid #539EF4;
+    border-left:2px solid #539EF4;
+    transition:.2s;
+    opacity:0
+}
+.menu ul li a:hover span:first-of-type:before{
+    opacity:1;
+    margin:-8px;
+}
+.menu ul li a span:first-of-type:after{
+    content:'';
+    position: absolute;
+    top:0;
+    right:0;
+    width:8px;
+    height:8px;
+    background:transparent;
+    border-top: 2px solid #539EF4;
+    border-right: 2px solid #539EF4;
+    transition:.2s;
+    opacity:0;
+}
+.menu ul li a:hover span:first-of-type:after{
+    opacity:1;
+    margin:-8px;
+}
+.menu ul li a span:last-of-type:before{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:8px;
+    height:8px;
+    background:transparent;
+    border-bottom: 2px solid #539EF4;
+    border-left: 2px solid #539EF4;
+    transition:.2s;
+    opacity:0;
+}
+.menu ul li a:hover span:last-of-type:before{
+    opacity:1;
+    margin:-8px;
+}
+.menu ul li a span:last-of-type:after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:8px;
+    height:8px;
+    background:transparent;
+    border-bottom: 2px solid #539EF4;
+    border-right: 2px solid #539EF4;
+    transition:.2s;
+    opacity:0;
+}
+.menu ul li a:hover span:last-of-type:after{
+    opacity:1;
+    margin:-8px;
+}

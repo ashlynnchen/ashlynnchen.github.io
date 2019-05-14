@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+        <title>Portfolio</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link href="css/menu.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    
+    <body>
+         <!-------------------------------NAV BAR------------------------------------->
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#home">
+                        HOME
+                        <span></span><span></span>
+                    </a>
+                </li>
+                
+                 <li>
+                    <a href="gallery.html">
+                        PORTFOLIO
+                        <span></span><span></span>
+                    </a>  
+                </li>
+                
+                <li>
+                    <a href="contact.html">
+                        CONTACT
+                        <span></span><span></span>
+                    </a> 
+                </li>
+                
+                 <li>
+                    <a href="#">
+                        ABOUT
+                        <span></span><span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-------------------------------CONTENT------------------------------------->
+        <div class="pimg1" id="home">
+            <div class="ptext">
+                <span class="border" id="titlet">
+                    Ashlynn Chen's Portfolio
+                </span>
+            </div>
+        </div>
+        
+        
+        <section class="section section-light">
+            <br><br><br>
+            <p>Currently exploring the worlds of:</p>
+            <br>
+            <!---
+            
+            --->
+            <div data-aos="fade-in" aos-duration="2200">
+            <img src="imgs/javascript_logo.png" class="picons"/>
+            <img src="imgs/HTML_Logo.png" class="picons"/>
+            <img src="imgs/css_logo.png" class="picons"/>
+            <img src="imgs/photoshopt_logo.png" class="picons"/>
+            <img src="imgs/illustrator_logo.png" class="picons"/>
+            <img src="imgs/after_effect.png" class="picons"/>
+            </div>
+            
+            <p data-aos="fade-up" aos-duration="2200">
+             To become a graphic designer + front end developer.
+            </p>
+            <br><br><br>
+            <hr>
+        </section>
+        
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border">
+                  Vector graphics
+                </span>
+                <p id="desct">Use Illustrator to show case typography skills and create visual graphics for posters, guides and SVGs.
+                </p>
+            </div>
+        </div>
+        
+        <section class="section section-dark">
+            <div class="gallery">
+                <div data-aos="fade-right" aos-duration="100" class="sample" id="vector1" ></div>
+                <div data-aos="fade-down"  class="sample" id="vector2"></div>
+                <div data-aos="fade-left"  class="sample" id="vector3"></div>
+            </div>
+            <button onclick="window.location.href = 'gallery.html';" id="viewmore">View more...</button>
+        </section>
+        
+        
+          <div class="pimg3">
+            <div class="ptext">
+                <span class="border">
+                    web developement
+                </span>
+                <p id="desct">Tinkering with HTML, CSS and Javascript to create interactive web elements.
+                </p>
+                
+            </div>
+        </div>
+        
+        <section class="section section-dark">
+            <div class="gallery">
+                <div data-aos="fade-right" aos-duration="100" class="sample" id="webdev1"></div>
+                <div data-aos="fade-down"  class="sample" id="webdev2"></div>
+                <div data-aos="fade-left"  class="sample" id="webdev3"></div>
+            </div>
+            <button onclick="window.location.href = 'gallery.html';" id="viewmore">View more...</button>
+            
+        </section>
+        
+              <div class="pimg4">
+            <div class="ptext">
+                <span class="border">
+                    RASTER ILLUSTRATIONS
+                </span>
+                <br>
+                <p id="desct">Side hobby of freelance commission examples done with raster illustration programs such as Photoshp, Paint Tool Sai, and Clip Studio Paint.
+                </p>
+                
+            </div>
+            </div>
+        
+        <section class="section section-dark">
+            <div class="gallery">
+                <div data-aos="fade-right" aos-duration="100" class="sample" id="raster1"></div>
+                <div data-aos="fade-down"  class="sample" id="raster2"></div>
+                <div data-aos="fade-left"  class="sample" id="raster3"></div>
+            </div>
+            <button onclick="window.location.href = 'gallery.html';" id="viewmore" onclick="">View more...</button>
+            
+        </section>
+        
+        
+        
+        
+                 <div class="pimg4">
+            <div class="ptext">
+                <span class="border">
+                    AFTER EFFECTS
+                </span>
+                <br>
+                <p id="desct">Working with masks, sequencing, sound and keyframe animation
+                </p>
+                
+            </div>
+        </div>
+        
+        
+            <section class="section section-light" id="contact">
+            <p>coming soon...</p>
+            <p>
+             <br>
+            <img src="#">
+            <img src="#">
+            <img src="#">
+            </p>
+            <br>
+            <br>
+        </section>
+        
+        <div id="footer"></div>
+        
+        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+</html>

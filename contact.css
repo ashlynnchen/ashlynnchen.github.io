@@ -1,0 +1,46 @@
+body {
+    font-family: "Tahoma", Geneva, sans-serif;
+    background-image: url(imgs/sky.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+    
+}
+.container{
+    height:400px;
+    width:300px;
+    position:static;
+    margin: auto;
+    top:200px;
+    background-color:white;
+    padding:30px;
+    border-radius: 10px;
+    padding-left:40px;
+}
+#subject{
+    height:20vh;
+    width:280px;
+}
+input{
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+}
+#head{
+    margin-top:150px;
+}
+#submit{
+    margin-left:205px;
+    border-radius: 10px;
+    width:80px;
+    height:30px;
+    background-color:#A7BAF7;
+    color:white;
+}
+#footer{
+    margin-top:100px;
+    height:100px;
+    width:100vw;
+    background-color: #262626;
+}
