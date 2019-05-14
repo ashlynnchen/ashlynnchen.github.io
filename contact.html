@@ -45,8 +45,10 @@
         
         
         <div id="head">
-        
         </div>
+        
+        <div id="popup">Thank you for your time!</div>
+        
         <div class="container">
             <div id="title">Contact Forn</div><br><br>
           <form>
@@ -76,9 +78,17 @@
             <textarea id="subject" name="subject" placeholder="Leave me a message..."></textarea>
 
             <br><br>
-            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Submit" id="submit" onclick="submitbut()">
 
           </form>
         </div>
         <div id="footer"></div>
+        
+        <script>
+        function submitbut(){
+            var popup = document.querySelector("#popup");
+            popup.style.opacity = 1;
+}
+        </script>
+        
     </body>
