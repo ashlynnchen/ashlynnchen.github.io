@@ -45,7 +45,7 @@ p{
     background-color: #262626;
 }
 #popup{
-    width:380px;
+    width:370px;
     height:50px;
     background-color: white;
      position:static;
@@ -55,5 +55,6 @@ p{
     text-align: center;
     border-radius: 10px;
     opacity:0;
+    transition: 1s;
 }
 
