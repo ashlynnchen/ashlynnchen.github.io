@@ -1,6 +1,6 @@
 body {
     font-family: "Tahoma", Geneva, sans-serif;
-    background-image: url(imgs/sky.png);
+    background-image: url(/imgs/sky.png);
     background-repeat: no-repeat;
     background-size:cover;
    
@@ -30,7 +30,7 @@ p{
 #head{
     margin-top:150px;
 }
-#submit{
+#bsub{
     margin-left:205px;
     border-radius: 10px;
     width:80px;

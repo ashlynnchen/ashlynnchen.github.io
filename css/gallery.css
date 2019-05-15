@@ -32,49 +32,49 @@
 }
 
 #box1{
-    background-image: url(imgs/sample1.2.png);
+    background-image: url(../imgs/sample1.2.png);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 #box2{
-    background-image: url(imgs/sample3.1.png);
+    background-image: url(../imgs/sample3.1.png);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #box3{
-    background-image: url(imgs/Asset%202.svg);
+    background-image: url(../imgs/Asset%202.svg);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 #box4{
-    background-image: url(imgs/Asset%203.svg);
+    background-image: url(../imgs/Asset%203.svg);
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #box5{
-    background-image: url(imgs/styleguide.svg);
+    background-image: url(../imgs/styleguide.svg);
     background-size:contain;
     background-position:top;
     background-repeat: no-repeat;
 }
 #box6{
-    background-image: url(imgs/raster1.png);
+    background-image: url(../imgs/raster1.png);
     background-size:contain;
     background-position:top;
     background-repeat: no-repeat;
 }
 #box7{
-    background-image: url(imgs/raster2.png);
+    background-image: url(../imgs/raster2.png);
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
 }
 #box8{
-    background-image: url(imgs/raster3.png);
+    background-image: url(../imgs/raster3.png);
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
